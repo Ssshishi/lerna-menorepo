@@ -4,6 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "npx lerna run build",
+    "build: header": "npx lerna run build --scope=header",
+    "dev: remixapp": "npx lerna run build && npx lerna run dev --scope=remixapp"
+  },
   "devDependencies": {
     "lerna": "^6.0.1"
   }

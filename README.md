@@ -1,5 +1,7 @@
 # Lerna Getting Started Example
 
+lerna 统一包管理
+
 This repo is a small example of using Lerna 5+.
 
 Watch this [10-minute walkthrough](https://youtu.be/1oxFYphTS4Y) to see how new versions of Lerna work.
@@ -35,3 +37,12 @@ packages/
 
 package.json
 ```
+
+---
+## nx.json 
+
+
+---
+## lerna.json
+
+
